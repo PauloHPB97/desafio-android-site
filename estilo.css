@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor1: #c5ebd6;
+    --cor2: #83e1ad;
+    --cor3: #3ddc84;
+    --cor4: #2fa866;
+    --cor5: #1a5c37;
+    --cor6: #063d1e;
+    --fonte1: Arial, Helvetica, sans-serif;
+    --fonte2: 'Bebas Neue', cursive;
+    --fonte3: 'Android', sans-serif;
+}
+
+body {
+    font-family: var(--fonte1);
+    color: black;
+    background-color: var(--cor2);
+}
+
+header {
+    background-image: linear-gradient(180deg, var(--cor3), var(--cor5));
+    color: white;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(36, 27, 27, 0.406);
+    
+}
+header > h1 {
+    margin: auto;
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+}
+
+header > p {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+nav table th {
+    padding: 14px;
+}
+
+main {
+    width: 850px;
+    margin: auto;
+    padding:20px;
+    background-color: white;
+}
+
