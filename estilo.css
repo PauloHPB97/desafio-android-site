@@ -25,7 +25,8 @@ header {
     background-image: linear-gradient(180deg, var(--cor3), var(--cor5));
     color: white;
     width: 100%;
-    height: 200px;
+    min-height: 200px;
+    max-height: 300px;
     text-align: center;
     text-shadow: 2px 2px 0px rgba(36, 27, 27, 0.406);
     
@@ -44,14 +45,74 @@ header > p {
     
 }
 
+nav {
+    position: absolute;
+}
+
 nav table th {
     padding: 14px;
 }
 
 main {
-    width: 850px;
+    min-width: 400px;
+    max-width: 800px;
     margin: auto;
-    padding:20px;
+    padding:25px;
     background-color: white;
 }
 
+h2 {
+    color: var(--cor6);
+    font-family: var(--fonte3);
+    margin: 12px 0px 12px 0px ;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+h3 {
+    color: var(--cor6);
+    background-image: linear-gradient(90deg, var(--cor1), white);
+    margin: 12px 0px 12px 0px;
+    font-family: var(--fonte3);
+    font-size: 22px;
+    text-transform: uppercase;
+
+}
+
+article > p {
+    text-align: justify;
+    line-height: 25px;
+    font-family: var(--fonte1);
+    text-indent: 40px;
+    margin: 10px 0px 12px 0px;
+}
+
+.palavra {
+    color: var(--cor5);
+    font-weight: bold;
+}
+
+#android-pessoa {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+aside > p {
+    text-align: justify;
+    line-height: 25px;
+    font-family: var(--fonte1);
+    text-indent: 40px;
+    margin: 10px 0px 12px 0px;
+}
+
+.video {
+    background-color: var(--cor5);
+    height: 515px;
+}
+
+.video > iframe {
+    display: block;
+    margin: auto;
+}
