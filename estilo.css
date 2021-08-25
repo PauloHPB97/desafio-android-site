@@ -59,6 +59,8 @@ main {
     margin: auto;
     padding:25px;
     background-color: white;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.406);
 }
 
 h2 {
@@ -83,7 +85,7 @@ article > p {
     text-align: justify;
     line-height: 25px;
     font-family: var(--fonte1);
-    text-indent: 40px;
+    text-indent: 30px;
     margin: 10px 0px 12px 0px;
 }
 
@@ -99,7 +101,11 @@ article > p {
     margin-right: auto;
 }
 
-aside > p {
+a {
+    text-decoration: none;
+}
+
+article > p {
     text-align: justify;
     line-height: 25px;
     font-family: var(--fonte1);
@@ -109,10 +115,54 @@ aside > p {
 
 .video {
     background-color: var(--cor5);
-    height: 515px;
+    height: 415px;
+    padding: 25px;
 }
 
 .video > iframe {
     display: block;
     margin: auto;
+}
+
+aside {
+    margin-top: 15px;
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 1px rgba(36, 27, 27, 0.406)
+}
+
+aside > h4 {
+    color: white;
+    background-color: var(--cor4);
+    height: 40px;
+    line-height: 40px;
+    text-indent: 10px;
+    margin: -10px -10px 20px -10px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+aside > ul {
+    list-style: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+    margin: 10px 0px 10px 0px;
+    
+}
+
+aside > p {
+    text-align: justify;
+    line-height: 25px;
+    font-family: var(--fonte1);
+    text-indent: 30px;
+    margin: 10px 0px 12px 0px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: var(--cor5);
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
 }
